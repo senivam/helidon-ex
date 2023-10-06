@@ -11,7 +11,7 @@ env:
   JAVA_DISTRO: 'temurin'
   HELIDON_PIPELINES: 'true'
   MAVEN_HTTP_ARGS: '-Dmaven.wagon.httpconnectionManager.ttlSeconds=60 -Dmaven.wagon.http.retryHandler.count=3'
-  HELIDON_EXAMPLES_REPOSITORY: 'https://github.com/helidon-io/helidon.git'
+  HELIDON_EXAMPLES_REPOSITORY: 'helidon-io/helidon.git'
   HELIDON_EXAMPLES_BUILD_BRANCH: 'helidon-3.x'
 
 concurrency:
